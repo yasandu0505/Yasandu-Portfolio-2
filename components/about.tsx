@@ -53,7 +53,7 @@ export default function About() {
             <div className="relative aspect-square w-full max-w-md overflow-hidden rounded-lg border bg-background p-2">
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-transparent" />
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/my.JPG?height=600&width=600"
                 alt="Profile"
                 width={600}
                 height={600}
@@ -69,9 +69,9 @@ export default function About() {
                     <h3 className="font-medium">Experience</h3>
                     <div className="grid grid-cols-2 gap-1 text-sm">
                       <div className="font-medium text-muted-foreground">Education:</div>
-                      <div>BSc in CS</div>
+                      <div>BSc. in CS</div>
                       <div className="font-medium text-muted-foreground">Projects:</div>
-                      <div>15+</div>
+                      <div>10+</div>
                     </div>
                   </div>
                 </CardContent>
