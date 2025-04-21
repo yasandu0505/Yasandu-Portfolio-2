@@ -9,14 +9,14 @@ import { GraduationCapIcon } from "lucide-react"
 export default function About() {
   const educationData = [
     {
-      degree: "BSc. in Computer Science",
-      institution: "University of Westminster",
-      period: "2020 - Present",
+      degree: "BSc. (Hons) in Computer Science",
+      institution: "University of Westminster - IIT SriLanka",
+      period: "2023(SEP) - Present",
     },
     {
       degree: "Foundation Certificate in Higher Education",
-      institution: "IIT Sri Lanka",
-      period: "2019 - 2020",
+      institution: "Informatics Institute of Technology",
+      period: "2023(JAN) - 2023(AUG)",
     },
     {
       degree: "GCE O/L - English Medium",
@@ -55,10 +55,7 @@ export default function About() {
                 I specialize in full-stack development, with expertise in modern frameworks and technologies. I'm
                 constantly learning and exploring new tools to enhance my skills and deliver better results.
               </p>
-              <p>
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
-                or sharing knowledge with the developer community.
-              </p>
+              
             </div>
 
             <motion.div
@@ -101,7 +98,7 @@ export default function About() {
             <div className="relative aspect-square w-full max-w-md overflow-hidden rounded-lg border bg-background p-2">
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/20 to-transparent" />
               <Image
-                src="/placeholder.svg?height=600&width=600"
+                src="/my.JPG?height=600&width=600"
                 alt="Profile"
                 width={600}
                 height={600}
