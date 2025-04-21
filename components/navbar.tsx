@@ -155,7 +155,7 @@ export default function Navbar() {
               <div className="mt-4 flex items-center gap-2">
                 <Button variant="ghost" size="icon" asChild>
                   <Link
-                    href="https://github.com"
+                    href="https://github.com/yasandu0505"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -165,7 +165,7 @@ export default function Navbar() {
                 </Button>
                 <Button variant="ghost" size="icon" asChild>
                   <Link
-                    href="https://linkedin.com"
+                    href="https://linkedin.com/in/yasandu-imanjith-17b760278"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
