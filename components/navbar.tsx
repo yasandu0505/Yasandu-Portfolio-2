@@ -1,11 +1,17 @@
-"use client"
+"use client";
 
-import * as React from "react"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { DownloadIcon, GithubIcon, LinkedinIcon, MenuIcon, XIcon } from "lucide-react"
-import { motion } from "framer-motion"
-import { usePathname } from "next/navigation"
+import * as React from "react";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import {
+  DownloadIcon,
+  GithubIcon,
+  LinkedinIcon,
+  MenuIcon,
+  XIcon,
+} from "lucide-react";
+import { motion } from "framer-motion";
+import { usePathname } from "next/navigation";
 
 const navItems = [
   { name: "Home", href: "#hero" },
@@ -14,29 +20,29 @@ const navItems = [
   { name: "Projects", href: "#projects" },
   { name: "Testimonials", href: "#testimonials" },
   { name: "Contact", href: "#contact" },
-]
+];
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = React.useState(false)
-  const pathname = usePathname()
-  const isProjectPage = pathname.includes("/projects/")
+  const [isOpen, setIsOpen] = React.useState(false);
+  const pathname = usePathname();
+  const isProjectPage = pathname.includes("/projects/");
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen)
-  }
+    setIsOpen(!isOpen);
+  };
 
   const scrollToSection = (sectionId: string) => {
-    setIsOpen(false)
+    setIsOpen(false);
     if (isProjectPage) {
-      window.location.href = `/${sectionId}`
-      return
+      window.location.href = `/${sectionId}`;
+      return;
     }
 
-    const section = document.querySelector(sectionId)
+    const section = document.querySelector(sectionId);
     if (section) {
-      section.scrollIntoView({ behavior: "smooth" })
+      section.scrollIntoView({ behavior: "smooth" });
     }
-  }
+  };
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-md">
@@ -83,13 +89,21 @@ export default function Navbar() {
             className="flex items-center gap-2"
           >
             <Button variant="ghost" size="icon" asChild>
-              <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <Link
+                href="https://github.com/yasandu0505"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <GithubIcon className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Link>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-              <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <Link
+                href="https://linkedin.com/in/yasandu-imanjith-17b760278"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <LinkedinIcon className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
@@ -104,8 +118,17 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Menu Button */}
-        <Button variant="ghost" size="icon" className="md:hidden" onClick={toggleMenu}>
-          {isOpen ? <XIcon className="h-5 w-5" /> : <MenuIcon className="h-5 w-5" />}
+        <Button
+          variant="ghost"
+          size="icon"
+          className="md:hidden"
+          onClick={toggleMenu}
+        >
+          {isOpen ? (
+            <XIcon className="h-5 w-5" />
+          ) : (
+            <MenuIcon className="h-5 w-5" />
+          )}
           <span className="sr-only">Toggle menu</span>
         </Button>
 
@@ -131,13 +154,21 @@ export default function Navbar() {
               ))}
               <div className="mt-4 flex items-center gap-2">
                 <Button variant="ghost" size="icon" asChild>
-                  <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+                  <Link
+                    href="https://github.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <GithubIcon className="h-5 w-5" />
                     <span className="sr-only">GitHub</span>
                   </Link>
                 </Button>
                 <Button variant="ghost" size="icon" asChild>
-                  <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                  <Link
+                    href="https://linkedin.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <LinkedinIcon className="h-5 w-5" />
                     <span className="sr-only">LinkedIn</span>
                   </Link>
@@ -154,5 +185,5 @@ export default function Navbar() {
         )}
       </div>
     </header>
-  )
+  );
 }
