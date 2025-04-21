@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
-import { Code2Icon, DatabaseIcon, GlobeIcon, LayoutIcon, ServerIcon, SettingsIcon } from "lucide-react"
+import { Code2Icon, DatabaseIcon, LayoutIcon, ServerIcon, SettingsIcon } from "lucide-react"
 
 const skillCategories = [
   {
@@ -14,22 +14,17 @@ const skillCategories = [
   {
     title: "Backend",
     icon: <ServerIcon className="h-10 w-10 text-purple-500" />,
-    skills: ["Node.js", "Express", "Python", "Java", "RESTful APIs", "GraphQL"],
+    skills: ["Node.js", "Express", "Python", "Java", "RESTful APIs", "GO"],
   },
   {
     title: "Database",
     icon: <DatabaseIcon className="h-10 w-10 text-purple-500" />,
-    skills: ["MongoDB", "PostgreSQL", "MySQL", "Firebase", "Supabase", "Redis"],
+    skills: ["MongoDB", "SQL", "MySQL", "Firebase", "Supabase"],
   },
   {
     title: "DevOps",
     icon: <SettingsIcon className="h-10 w-10 text-purple-500" />,
-    skills: ["Git", "Docker", "CI/CD", "AWS", "Vercel", "Linux"],
-  },
-  {
-    title: "Mobile",
-    icon: <GlobeIcon className="h-10 w-10 text-purple-500" />,
-    skills: ["React Native", "Flutter", "iOS", "Android", "Responsive Design"],
+    skills: ["Git", "Docker", "CI/CD", "Vercel"],
   },
   {
     title: "Other",
