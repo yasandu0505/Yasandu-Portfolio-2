@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { GithubIcon, LinkedinIcon, TwitterIcon } from "lucide-react"
+import { GithubIcon, LinkedinIcon } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -13,23 +13,18 @@ export default function Footer() {
         </div>
         <div className="flex gap-4">
           <Button variant="ghost" size="icon" asChild>
-            <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/yasandu0505" target="_blank" rel="noopener noreferrer">
               <GithubIcon className="h-4 w-4" />
               <span className="sr-only">GitHub</span>
             </Link>
           </Button>
           <Button variant="ghost" size="icon" asChild>
-            <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://linkedin.com/in/yasandu-imanjith-17b760278" target="_blank" rel="noopener noreferrer">
               <LinkedinIcon className="h-4 w-4" />
               <span className="sr-only">LinkedIn</span>
             </Link>
           </Button>
-          <Button variant="ghost" size="icon" asChild>
-            <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <TwitterIcon className="h-4 w-4" />
-              <span className="sr-only">Twitter</span>
-            </Link>
-          </Button>
+         
         </div>
       </div>
     </footer>
