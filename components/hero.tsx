@@ -64,7 +64,7 @@ export default function Hero() {
       <TechIcons />
 
       <div className="container relative z-10 px-4 md:px-6">
-        <div className="flex flex-col items-center justify-center space-y-6 text-center">
+        <div className="flex flex-col items-center justify-center space-y-10 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
