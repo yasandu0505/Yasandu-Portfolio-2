@@ -3,7 +3,7 @@ export const projectsData = [
     id: "project-1",
     title: "I'm Here",
     description: "A smart attendance system using QR codes and real-time database integration.",
-    image: "https://firebasestorage.googleapis.com/v0/b/dineease-fc389.firebasestorage.app/o/a-1.png?alt=media&token=5f07ac34-c3a1-4f99-901c-8c5ba0a56390?height=600&width=800",
+    image: "/i-1.png?height=600&width=800",
     technologies: ["Next.js", "Firebase", "Tailwind CSS", "TypeScript", "QRCode.js"],
     github: "https://github.com/yasandu0505/i-am-here",
     demo: "https://i-am-here-seven.vercel.app/",
@@ -136,33 +136,33 @@ export const projectsData = [
 
 export const testimonialsData = [
   {
-    name: "Alex Johnson",
-    role: "Senior Developer",
-    company: "TechCorp",
+    name: "Janidu Jayasanka",
+    role: "Co-Founder",
+    company: "Epic Labs",
     avatar: "/placeholder.svg?height=40&width=40",
     quote:
       "One of the most talented developers I've worked with. Their problem-solving skills and attention to detail are exceptional. They consistently delivered high-quality code and was always willing to help team members.",
   },
   {
-    name: "Sarah Williams",
-    role: "Project Manager",
-    company: "InnovateSoft",
+    name: "Hirun Kawshalya",
+    role: "CEO",
+    company: "BA Holdings",
     avatar: "/placeholder.svg?height=40&width=40",
     quote:
       "An outstanding team player with excellent technical skills. They took ownership of complex features and delivered them ahead of schedule. Their communication skills made collaboration seamless.",
   },
   {
-    name: "Michael Chen",
-    role: "CTO",
-    company: "StartupX",
+    name: "Chathura Dilshan",
+    role: "Senior Developer",
+    company: "VVH Solutions",
     avatar: "/placeholder.svg?height=40&width=40",
     quote:
       "Rarely do you find someone who combines technical excellence with such strong communication skills. They quickly became an integral part of our team, solving problems we'd been stuck on for weeks.",
   },
   {
-    name: "Emily Rodriguez",
-    role: "UX Designer",
-    company: "DesignHub",
+    name: "Thanuja Gamage",
+    role: "Software Engineer Intern",
+    company: "HCLTech",
     avatar: "/placeholder.svg?height=40&width=40",
     quote:
       "Working with them was a pleasure. They have a great eye for detail and always considered the user experience in their implementations. Their ability to translate designs into functioning code is impressive.",
@@ -176,9 +176,9 @@ export const testimonialsData = [
       "They have a rare combination of technical expertise and business understanding. They not only built what we asked for but often suggested improvements that made the product better.",
   },
   {
-    name: "Lisa Patel",
-    role: "Frontend Lead",
-    company: "WebWorks",
+    name: "Kevin Dinal",
+    role: "Product Owner",
+    company: "DineEase (SDGP)",
     avatar: "/placeholder.svg?height=40&width=40",
     quote:
       "Their code is clean, well-documented, and maintainable. They stay up-to-date with the latest technologies and best practices, bringing valuable insights to every project they work on.",
