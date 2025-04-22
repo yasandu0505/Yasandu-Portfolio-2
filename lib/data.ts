@@ -139,7 +139,7 @@ export const testimonialsData = [
     name: "Janidu Jayasanka",
     role: "Co-Founder",
     company: "Epic Labs",
-    avatar: "/placeholder.svg?height=40&width=40",
+    avatar: "/j.JPG?height=40&width=40",
     quote:
       "One of the most talented developers I've worked with. Their problem-solving skills and attention to detail are exceptional. They consistently delivered high-quality code and was always willing to help team members.",
   },
@@ -147,7 +147,7 @@ export const testimonialsData = [
     name: "Hirun Kawshalya",
     role: "CEO",
     company: "BA Holdings",
-    avatar: "/placeholder.svg?height=40&width=40",
+    avatar: "/h.jpg?height=40&width=40",
     quote:
       "An outstanding team player with excellent technical skills. They took ownership of complex features and delivered them ahead of schedule. Their communication skills made collaboration seamless.",
   },
@@ -155,7 +155,7 @@ export const testimonialsData = [
     name: "Chathura Dilshan",
     role: "Senior Developer",
     company: "VVH Solutions",
-    avatar: "/placeholder.svg?height=40&width=40",
+    avatar: "/c.JPG?height=40&width=40",
     quote:
       "Rarely do you find someone who combines technical excellence with such strong communication skills. They quickly became an integral part of our team, solving problems we'd been stuck on for weeks.",
   },
@@ -163,7 +163,7 @@ export const testimonialsData = [
     name: "Thanuja Gamage",
     role: "Software Engineer Intern",
     company: "HCLTech",
-    avatar: "/placeholder.svg?height=40&width=40",
+    avatar: "/t.JPG?height=40&width=40",
     quote:
       "Working with them was a pleasure. They have a great eye for detail and always considered the user experience in their implementations. Their ability to translate designs into functioning code is impressive.",
   },
