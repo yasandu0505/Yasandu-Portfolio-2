@@ -155,7 +155,7 @@ export const testimonialsData = [
     name: "Chathura Dilshan",
     role: "Senior Developer",
     company: "VVH Solutions",
-    avatar: "/c.JPG?height=40&width=40",
+    avatar: "/c.jpg?height=40&width=40",
     quote:
       "Rarely do you find someone who combines technical excellence with such strong communication skills. They quickly became an integral part of our team, solving problems we'd been stuck on for weeks.",
   },
