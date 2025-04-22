@@ -80,13 +80,12 @@ export default function Contact() {
                       <div className="flex h-10 w-10 items-center justify-center rounded-full bg-purple-100 dark:bg-purple-900/20">
                         <MailIcon className="h-5 w-5 text-purple-500" />
                       </div>
-                      <div>
-                        <h3 className="font-medium">Email</h3>
-                      </div>
-                      <div>
+                      
+                      <div className="text-left">
+                      <h3 className="font-medium">Email</h3>
                         <p className="text-sm text-muted-foreground">
-                          <Link href="mailto:contact@example.com" className="hover:underline">
-                            contact@example.com
+                          <Link href="mailto:yasanduyaka2005@gmail.com" className="hover:underline">
+                            yasanduyaka2005@gmail.com
                           </Link>
                         </p>
                       </div>
@@ -95,11 +94,11 @@ export default function Contact() {
                       <div className="flex h-10 w-10 items-center justify-center rounded-full bg-purple-100 dark:bg-purple-900/20">
                         <PhoneIcon className="h-5 w-5 text-purple-500" />
                       </div>
-                      <div>
+                      <div className="text-left">
                         <h3 className="font-medium">Phone</h3>
                         <p className="text-sm text-muted-foreground">
-                          <Link href="tel:+1234567890" className="hover:underline">
-                            +1 (234) 567-890
+                          <Link href="tel:+94761915021" className="hover:underline">
+                            +94 76 191 5021
                           </Link>
                         </p>
                       </div>
@@ -108,25 +107,25 @@ export default function Contact() {
                       <div className="flex h-10 w-10 items-center justify-center rounded-full bg-purple-100 dark:bg-purple-900/20">
                         <MapPinIcon className="h-5 w-5 text-purple-500" />
                       </div>
-                      <div>
+                      <div className="text-left">
                         <h3 className="font-medium">Location</h3>
-                        <p className="text-sm text-muted-foreground">San Francisco, CA</p>
+                        <p className="text-sm text-muted-foreground">Dehiwala, SriLanka</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-4">
                       <div className="flex h-10 w-10 items-center justify-center rounded-full bg-purple-100 dark:bg-purple-900/20">
                         <GithubIcon className="h-5 w-5 text-purple-500" />
                       </div>
-                      <div>
+                      <div className="text-left">
                         <h3 className="font-medium">GitHub</h3>
                         <p className="text-sm text-muted-foreground">
                           <Link
-                            href="https://github.com"
+                            href="https://github.com/yasandu0505"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:underline"
                           >
-                            github.com/username
+                            github.com/yasandu0505
                           </Link>
                         </p>
                       </div>
@@ -135,16 +134,16 @@ export default function Contact() {
                       <div className="flex h-10 w-10 items-center justify-center rounded-full bg-purple-100 dark:bg-purple-900/20">
                         <LinkedinIcon className="h-5 w-5 text-purple-500" />
                       </div>
-                      <div>
+                      <div className="text-left">
                         <h3 className="font-medium">LinkedIn</h3>
                         <p className="text-sm text-muted-foreground">
                           <Link
-                            href="https://linkedin.com"
+                            href="https://linkedin.com/in/yasandu-imanjith-17b760278"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="hover:underline"
                           >
-                            linkedin.com/in/username
+                            linkedin.com/in/yasandu-imanjith-17b760278
                           </Link>
                         </p>
                       </div>
@@ -160,13 +159,13 @@ export default function Contact() {
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
             >
-              <form onSubmit={handleSubmit} className="grid gap-6">
-                <div className="grid gap-2">
+              <form onSubmit={handleSubmit} className="grid gap-6 text-left">
+                <div className="grid gap-2 ">
                   <Label htmlFor="name">Name</Label>
                   <Input
                     id="name"
                     name="name"
-                    placeholder="Your name"
+                    placeholder="John Doe"
                     value={formData.name}
                     onChange={handleChange}
                     required
@@ -178,7 +177,7 @@ export default function Contact() {
                     id="email"
                     name="email"
                     type="email"
-                    placeholder="Your email"
+                    placeholder="you@example.com"
                     value={formData.email}
                     onChange={handleChange}
                     required
