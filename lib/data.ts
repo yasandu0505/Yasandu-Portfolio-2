@@ -3,7 +3,7 @@ export const projectsData = [
     id: "project-1",
     title: "I'm Here",
     description: "A smart attendance system using QR codes and real-time database integration.",
-    image: "/i-1.png?height=600&width=800",
+    image: "https://firebasestorage.googleapis.com/v0/b/dineease-fc389.firebasestorage.app/o/a-1.png?alt=media&token=5f07ac34-c3a1-4f99-901c-8c5ba0a56390?height=600&width=800",
     technologies: ["Next.js", "Firebase", "Tailwind CSS", "TypeScript", "QRCode.js"],
     github: "https://github.com/yasandu0505/i-am-here",
     demo: "https://i-am-here-seven.vercel.app/",
