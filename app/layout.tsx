@@ -4,6 +4,9 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Yasandu Imanjith',
   description: 'Im here to showcase my skills',
+  icons:{
+    icon: "/faviconn.ico"
+  }
 }
 
 export default function RootLayout({
@@ -13,9 +16,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel='icon' href='/faviconn.ico' />
-      </head>
       <body>{children}</body>
     </html>
   )
