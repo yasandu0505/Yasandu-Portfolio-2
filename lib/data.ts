@@ -168,10 +168,10 @@ export const testimonialsData = [
       "Working with them was a pleasure. They have a great eye for detail and always considered the user experience in their implementations. Their ability to translate designs into functioning code is impressive.",
   },
   {
-    name: "David Kim",
-    role: "Product Owner",
-    company: "SoftSolutions",
-    avatar: "/placeholder.svg?height=40&width=40",
+    name: "Kavin Sashantha",
+    role: "Associate UI/UX Engineer",
+    company: "H2Compute",
+    avatar: "/k.jpg?height=40&width=40",
     quote:
       "They have a rare combination of technical expertise and business understanding. They not only built what we asked for but often suggested improvements that made the product better.",
   },
@@ -179,7 +179,7 @@ export const testimonialsData = [
     name: "Kevin Dinal",
     role: "Product Owner",
     company: "DineEase (SDGP)",
-    avatar: "/placeholder.svg?height=40&width=40",
+    avatar: "/d.jpg?height=40&width=40",
     quote:
       "Their code is clean, well-documented, and maintainable. They stay up-to-date with the latest technologies and best practices, bringing valuable insights to every project they work on.",
   },
