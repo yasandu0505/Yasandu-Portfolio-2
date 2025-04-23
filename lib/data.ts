@@ -132,6 +132,29 @@ export const projectsData = [
     "The Weather App allows users to search for weather information based on city name. Built with React and Bootstrap, it provides a simple and responsive UI that fetches real-time data from a third-party weather API. It displays essential weather details such as temperature, condition, and location, while also handling errors for invalid city names."
 
   },
+  {
+    id: "project-7",
+    title: "Weather App",
+    description: "A weather application built with React and Bootstrap, providing real-time weather information for any city.",
+    image: "/w-1.png?height=600&width=800",
+    technologies: ["React", "Bootstrap", "JavaScript", "API Integration"],
+    github: "https://github.com/yasandu0505/Weather-App",
+    demo: "https://weatherapp-xi-khaki.vercel.app/",
+    type: "Web Application",
+    duration: "2 days",
+    role: "Full Stack Developer",
+    year: 2024,
+    features: [
+      "Real-time weather data fetching from a third-party API",
+    "City search and dynamic weather display",
+    "Responsive design with Bootstrap for mobile and desktop views",
+    "Temperature and weather condition indicators",
+    "Error handling for invalid city inputs"
+    ],
+    longDescription:
+    "The Weather App allows users to search for weather information based on city name. Built with React and Bootstrap, it provides a simple and responsive UI that fetches real-time data from a third-party weather API. It displays essential weather details such as temperature, condition, and location, while also handling errors for invalid city names."
+
+  }
 ]
 
 export const testimonialsData = [

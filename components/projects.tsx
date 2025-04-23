@@ -1,23 +1,20 @@
 "use client"
 
+import { useState } from "react"
 import { motion } from "framer-motion"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
-import { GithubIcon, ExternalLinkIcon } from "lucide-react"
+import { GithubIcon, ExternalLinkIcon, ChevronDownIcon } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { projectsData } from "@/lib/data"
 
 export default function Projects() {
-  const container = {
-    hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1,
-      },
-    },
+  const [visibleProjects, setVisibleProjects] = useState(6)
+
+  const loadMoreProjects = () => {
+    setVisibleProjects((prev) => prev + 6)
   }
 
   const item = {
@@ -43,15 +40,16 @@ export default function Projects() {
             </p>
           </motion.div>
 
-          <motion.div
-            variants={container}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true }}
-            className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
-          >
-            {projectsData.map((project, index) => (
-              <motion.div key={project.id} variants={item}>
+          <div className="grid w-full gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {projectsData.slice(0, visibleProjects).map((project, index) => (
+              <motion.div
+                key={project.id}
+                variants={item}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: (index % 6) * 0.1 }}
+              >
                 <Card className="h-full overflow-hidden border-purple-100 transition-all duration-300 hover:border-purple-300 hover:shadow-md dark:border-purple-900/50 hover:dark:border-purple-800">
                   <div className="relative aspect-video overflow-hidden">
                     <Image
@@ -104,7 +102,21 @@ export default function Projects() {
                 </Card>
               </motion.div>
             ))}
-          </motion.div>
+          </div>
+
+          {visibleProjects < projectsData.length && (
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2 }}
+              className="mt-6"
+            >
+              <Button onClick={loadMoreProjects} variant="outline" className="gap-2" size="lg">
+                See More Projects
+                <ChevronDownIcon className="h-4 w-4" />
+              </Button>
+            </motion.div>
+          )}
         </div>
       </div>
     </section>
