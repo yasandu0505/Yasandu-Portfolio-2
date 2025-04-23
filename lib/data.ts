@@ -45,6 +45,28 @@ export const projectsData = [
   },
   {
     id: "project-3",
+    title: "DineEase",
+    description: "A smart restaurant booking and table reservation system for seamless dining experiences.",
+    image: "/d.png?height=600&width=800",
+    technologies: ["Next.js", "Firebase", "Tailwind CSS", "TypeScript", "Python"],
+    github: "https://github.com/kevindinal/dine-ease",
+    demo: "https://example.com",
+    type: "Web Application",
+    duration: "7 months",
+    role: "Frontend Engineer & ML Developer",
+    year: 2024,
+    features: [
+      "User registration and authentication",
+      "Browse and filter restaurants by location and cuisine",
+      "Table reservation with time and date selection",
+      "Admin dashboard for restaurant owners to manage bookings",
+      "Booking confirmation and cancellation system"
+    ],
+    longDescription:
+    "DineEase is a modern web application designed to simplify the process of booking restaurant tables. It allows users to browse restaurants, view availability, and reserve tables in just a few clicks. The platform features secure user authentication, a real-time reservation system, and a dashboard for restaurant owners to manage their bookings efficiently. Built using the MERN stack, DineEase offers a smooth and user-friendly experience for both diners and restaurants."
+  },
+  {
+    id: "project-4",
     title: "Core Feedback",
     description: "A web application that allows businesses to collect anonymous feedback via QR code scanning.",
     image: "/cr-2.png?height=600&width=800",
@@ -66,7 +88,7 @@ export const projectsData = [
     "Core Feedback is a simple and efficient web platform designed for businesses to collect anonymous client feedback. By scanning a QR code displayed at the business location, customers can quickly access and submit feedback without logging in. Built with the MERN stack and secured using JWT, the platform also provides businesses with a dashboard to analyze and respond to the collected feedback."
   },
   {
-    id: "project-4",
+    id: "project-5",
     title: "Nestify Homes",
     description: "A responsive property documentary platform with advanced search and user preference storage.",
     image: "/n-1.png?height=600&width=800",
@@ -88,7 +110,7 @@ export const projectsData = [
     "Nestify Homes is a sleek, modern web application built to showcase real estate listings in an engaging and user-friendly way. Users can search and filter properties, view detailed information, and save their preferences using localStorage. The platform is built with React and JSON data, designed with responsiveness and user experience in mind."
   },
   {
-    id: "project-5",
+    id: "project-6",
     title: "ConnectedDots",
     description: "A modern, responsive landing website built for a startup tech company.",
     image: "/cd-1.png?height=600&width=800",
@@ -108,29 +130,6 @@ export const projectsData = [
     ],
     longDescription:
     "ConnectedDots Web is a polished and responsive landing page designed for a modern startup tech company. The site utilizes Bootstrap for layout and responsiveness, and Particle.js to create dynamic and visually engaging backgrounds. It showcases company services, mission, and contact information with a clean and structured layout suitable for a corporate audience."
-  },
-  {
-    id: "project-6",
-    title: "Weather App",
-    description: "A weather application built with React and Bootstrap, providing real-time weather information for any city.",
-    image: "/w-1.png?height=600&width=800",
-    technologies: ["React", "Bootstrap", "JavaScript", "API Integration"],
-    github: "https://github.com/yasandu0505/Weather-App",
-    demo: "https://weatherapp-xi-khaki.vercel.app/",
-    type: "Web Application",
-    duration: "2 days",
-    role: "Full Stack Developer",
-    year: 2024,
-    features: [
-      "Real-time weather data fetching from a third-party API",
-    "City search and dynamic weather display",
-    "Responsive design with Bootstrap for mobile and desktop views",
-    "Temperature and weather condition indicators",
-    "Error handling for invalid city inputs"
-    ],
-    longDescription:
-    "The Weather App allows users to search for weather information based on city name. Built with React and Bootstrap, it provides a simple and responsive UI that fetches real-time data from a third-party weather API. It displays essential weather details such as temperature, condition, and location, while also handling errors for invalid city names."
-
   },
   {
     id: "project-7",
