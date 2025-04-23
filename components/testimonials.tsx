@@ -68,7 +68,7 @@ export default function Testimonials() {
                                 .join("")}
                             </AvatarFallback>
                           </Avatar>
-                          <div>
+                          <div className="text-left">
                             <p className="text-sm font-medium leading-none">{testimonial.name}</p>
                             <p className="text-sm text-muted-foreground">
                               {testimonial.role}, {testimonial.company}

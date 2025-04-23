@@ -206,4 +206,12 @@ export const testimonialsData = [
     quote:
       "Their code is clean, well-documented, and maintainable. They stay up-to-date with the latest technologies and best practices, bringing valuable insights to every project they work on.",
   },
+  {
+    name: "Kevin Dinal",
+    role: "Product Owner",
+    company: "DineEase (SDGP)",
+    avatar: "/d.jpg?height=40&width=40",
+    quote:
+      "Their code is clean, well-documented, and maintainable. They stay up-to-date with the latest technologies and best practices, bringing valuable insights to every project they work on.",
+  }
 ]
