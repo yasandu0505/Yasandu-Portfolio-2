@@ -27,7 +27,7 @@ export default function About() {
     {
       degree: "Foundation Certificate in Higher Education",
       institution: "Informatics Institute of Technology",
-      period: "2023(JAN) - 2023(AUG)",
+      period: "2023(JAN) - 2023(AUG) - Distinction",
     },
     {
       degree: "GCE O/L - English Medium",
