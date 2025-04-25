@@ -109,7 +109,7 @@ export default function Navbar() {
               </Link>
             </Button>
             <Button variant="outline" size="sm" className="gap-1" asChild>
-              <Link href="/resume.pdf" download>
+            <Link href="/yasandu_imanjith.pdf" download>
                 <DownloadIcon className="h-4 w-4" />
                 Resume
               </Link>
@@ -174,7 +174,7 @@ export default function Navbar() {
                   </Link>
                 </Button>
                 <Button variant="outline" size="sm" className="gap-1" asChild>
-                  <Link href="/resume.pdf" download>
+                <Link href="/yasandu_imanjith.pdf" download>
                     <DownloadIcon className="h-4 w-4" />
                     Resume
                   </Link>
