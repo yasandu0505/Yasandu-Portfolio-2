@@ -48,7 +48,7 @@ export default function AnimatedBackground() {
   }, [])
 
   return (
-    <div className="absolute inset-0 -z-10 overflow-hidden">
+    <div className="absolute inset-0 z-5 overflow-hidden opacity-10">
       {/* Animated circles */}
       {elements.map((el) => (
         <motion.div

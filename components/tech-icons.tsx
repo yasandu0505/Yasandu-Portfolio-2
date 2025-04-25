@@ -54,5 +54,5 @@ export default function TechIcons() {
     setIconElements(generatedIcons)
   }, [])
 
-  return <div className="absolute inset-0 -z-10 overflow-hidden">{iconElements}</div>
+  return <div className="absolute inset-0 z-5 overflow-hidden">{iconElements}</div>
 }
