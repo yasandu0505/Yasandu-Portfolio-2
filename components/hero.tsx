@@ -13,23 +13,33 @@ export default function Hero() {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Get the height of the hero section
-      const heroSection = document.getElementById("hero")
-      if (!heroSection) return
-
-      const heroHeight = heroSection.offsetHeight
-
-      // Hide the button when scrolled past 30% of the hero section
-      if (window.scrollY > heroHeight * 0.3) {
-        setShowScrollButton(false)
+      const heroSection = document.getElementById("hero");
+      if (!heroSection) return;
+  
+      const heroTop = heroSection.offsetTop;
+      const heroHeight = heroSection.offsetHeight;
+      const scrollY = window.scrollY;
+  
+      const isInHero = scrollY >= heroTop && scrollY < heroTop + heroHeight;
+  
+      if (!isInHero) {
+        // Show button only within top 30% of hero section
+        const scrollInHero = scrollY - heroTop;
+        if (scrollInHero <= heroHeight * 0.3) {
+          setShowScrollButton(true);
+        } else {
+          setShowScrollButton(false);
+        }
       } else {
-        setShowScrollButton(true)
+        setShowScrollButton(false);
       }
-    }
-
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+    };
+  
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Run once on mount
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+  
 
   const scrollToProjects = () => {
     const projectsSection = document.querySelector("#projects")
