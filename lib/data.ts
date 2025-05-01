@@ -153,6 +153,28 @@ export const projectsData = [
     longDescription:
     "The Weather App allows users to search for weather information based on city name. Built with React and Bootstrap, it provides a simple and responsive UI that fetches real-time data from a third-party weather API. It displays essential weather details such as temperature, condition, and location, while also handling errors for invalid city names."
 
+  },
+  {
+    id: "project-8",
+    title: "Strakzat",
+    description: "A responsive portfolio website built with HTML, CSS, Bootstrap, and JavaScript to showcase web development skills.",
+    image: "/s.png?height=600&width=800",
+    technologies: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+    github: "https://github.com/yasandu0505/Bootstrap-Website",
+    demo: "https://strakzat.connecteddotzpos.com/",
+    type: "Web Site",
+    duration: "2 days",
+    role: "Frontend Developer",
+    year: 2024,
+    features: [
+      "Responsive design using Bootstrap grid and components",
+    "Modern, clean layout for showcasing personal projects and skills",
+    "Interactive UI elements built with JavaScript",
+    "Mobile-first design with cross-browser compatibility",
+    "Deployed using GitHub Pages"
+    ],
+    longDescription: "Strakzat is a modern and responsive personal portfolio website designed to highlight web development skills using Bootstrap. The site features clean sections for project showcases, skill highlights, and contact information, all built with HTML, CSS, Bootstrap, and vanilla JavaScript. It offers a smooth and responsive experience across devices and browsers, and is deployed on GitHub Pages for public access."
+
   }
 ]
 
