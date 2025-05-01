@@ -44,7 +44,28 @@ export const projectsData = [
     "AYLA Tourism is a responsive and dynamic web platform for browsing, filtering, and booking travel experiences. Built with the MERN stack, it supports secure user authentication, intuitive search, and real-time booking features. Admins can add and manage tours, while users can view booking history and manage upcoming trips through their dashboards."
   },
   {
-    id: "project-3",
+    "id": "project-3",
+    "title": "Habibi POS System",
+    "description": "A modern Point of Sale (POS) system developed using Laravel, designed for managing sales, products, and customers efficiently.",
+    "image": "/h.png?height=600&width=800",
+    "technologies": ["Laravel", "MYSQL", "HTML", "CSS", "JavaScript", "Tailwind CSS"],
+    "github": "https://example.com/",  
+    "demo": "https://example.com",               
+    "type": "Web Application",
+    "duration": "3 months",
+    "role": "Frontend Developer",
+    "year": 2024,
+    "features": [
+      "User-friendly UI for managing products, customers, and sales",
+      "Responsive design built with Bootstrap and Laravel Blade templates",
+      "Product listing and inventory tracking",
+      "Customer management interface",
+      "Invoice generation and order summary pages"
+    ],
+    longDescription: "Habibi POS is a Laravel-based Point of Sale web application built to simplify product and sales management for small to medium businesses. As the frontend developer, I was responsible for designing and implementing responsive user interfaces using Laravel Blade templates, Bootstrap, and custom CSS/JavaScript. The system includes modules for product inventory, customer records, and transaction management. It was deployed on Hostinger and tailored to deliver a seamless experience across different devices."
+  },  
+  {
+    id: "project-4",
     title: "DineEase",
     description: "A smart restaurant booking and table reservation system for seamless dining experiences.",
     image: "/d.png?height=600&width=800",
@@ -66,7 +87,7 @@ export const projectsData = [
     "DineEase is a modern web application designed to simplify the process of booking restaurant tables. It allows users to browse restaurants, view availability, and reserve tables in just a few clicks. The platform features secure user authentication, a real-time reservation system, and a dashboard for restaurant owners to manage their bookings efficiently. Built using the MERN stack, DineEase offers a smooth and user-friendly experience for both diners and restaurants."
   },
   {
-    id: "project-4",
+    id: "project-5",
     title: "Core Feedback",
     description: "A web application that allows businesses to collect anonymous feedback via QR code scanning.",
     image: "/cr-2.png?height=600&width=800",
@@ -88,7 +109,7 @@ export const projectsData = [
     "Core Feedback is a simple and efficient web platform designed for businesses to collect anonymous client feedback. By scanning a QR code displayed at the business location, customers can quickly access and submit feedback without logging in. Built with the MERN stack and secured using JWT, the platform also provides businesses with a dashboard to analyze and respond to the collected feedback."
   },
   {
-    id: "project-5",
+    id: "project-6",
     title: "Nestify Homes",
     description: "A responsive property documentary platform with advanced search and user preference storage.",
     image: "/n-1.png?height=600&width=800",
@@ -110,7 +131,7 @@ export const projectsData = [
     "Nestify Homes is a sleek, modern web application built to showcase real estate listings in an engaging and user-friendly way. Users can search and filter properties, view detailed information, and save their preferences using localStorage. The platform is built with React and JSON data, designed with responsiveness and user experience in mind."
   },
   {
-    id: "project-6",
+    id: "project-7",
     title: "ConnectedDots",
     description: "A modern, responsive landing website built for a startup tech company.",
     image: "/cd-1.png?height=600&width=800",
@@ -132,7 +153,7 @@ export const projectsData = [
     "ConnectedDots Web is a polished and responsive landing page designed for a modern startup tech company. The site utilizes Bootstrap for layout and responsiveness, and Particle.js to create dynamic and visually engaging backgrounds. It showcases company services, mission, and contact information with a clean and structured layout suitable for a corporate audience."
   },
   {
-    id: "project-7",
+    id: "project-8",
     title: "Weather App",
     description: "A weather application built with React and Bootstrap, providing real-time weather information for any city.",
     image: "/w-1.png?height=600&width=800",
@@ -155,7 +176,7 @@ export const projectsData = [
 
   },
   {
-    id: "project-8",
+    id: "project-9",
     title: "Strakzat",
     description: "A responsive portfolio website built with HTML, CSS, Bootstrap, and JavaScript to showcase web development skills.",
     image: "/s.png?height=600&width=800",
